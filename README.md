@@ -5,7 +5,6 @@ tdb-search-node
 
 Input
 --------------
-
 http://localhost:3000/tdb/search?key=${KEY}&page=${PAGE}
 
 ${KEY} : ShiftJISをURLエンコードした検索キー(社名検索)
@@ -15,7 +14,7 @@ Output
 --------------
 返却JSONの例（一部省略)
 
-{
+`{
     "searchHit":"112",
     "maxPage":"6",
     "currentPage":"6",
@@ -34,4 +33,4 @@ Output
         }...
     ],
     "success":true
-}
+}`
