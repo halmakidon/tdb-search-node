@@ -1,0 +1,12 @@
+{
+    "name": "worklog-node"
+  , "version": "0.0.1"
+  , "private": true
+  , "dependencies": {
+      "express": "2.5.8"
+    , "jade": ">= 0.0.1"
+    , "sqraper": "0.0.7"
+    , "iconv" : "1.1.3"
+    , "buffertools" : "1.0.7"
+  }
+}
